@@ -1,0 +1,13 @@
+POST http://localhost:8083/rb_bf86668dgc?type=js&session=%3D3%3Dsrv%3D1%3Dsn%3D27FABE7F193D28EB98551A61D033C534%3Dperc%3D100000%3Dol%3D0%3Dmul%3D1%3Dapp%3ARUM%2BDefault%2BApplication%3D1&svrid=1&flavor=post&referer=http%3A%2F%2Flocalhost%3A8083%2Fexamples%2Fjsp%2Fjsp2%2Fsimpletag%2Fbook.jsp&visitID=DCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD HTTP/1.1
+Host: localhost:8083
+Content-Length: 808
+Origin: http://localhost:8083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Referer: http://localhost:8083/examples/jsp/jsp2/simpletag/book.jsp
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: rxVisitor=1537170824722MLGEBS0P5FLE6IM87LI7RT8BANNU2LIT; dtLatC=1; dtSa=-; dtPC=1$570903968_358h1vDCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD; dtCookie==3=srv=1=sn=27FABE7F193D28EB98551A61D033C534=perc=100000=ol=0=mul=1=app:RUM+Default+Application=1; rxvt=1537172705989|1537170824730
+
+$a=d%7C-1%7CExecute%7CC%7C-%7C570889888_112%7C1537170903948%7Chttp%3A%2F%2Flocalhost%3A8083%2Fexamples%2Fjsp%2F%7CJSP%20Examples%2C1%7C1%7C_load_%7C_load_%7C-%7C1537170903951%7C1537170904023%7C34%7C-%7C-%7C-%7C-%7C-%7Chttp%3A%2F%2Flocalhost%3A8083%2Fexamples%2Fjsp%2F%2C2%7C2%7C_onload_%7C_load_%7C-%7C1537170904019%7C1537170904023%7C34$rId=RID_354899539$rpId=-1423998583$domR=1537170904020$w=1366$h=662$sw=1366$sh=768$nt=a0b1537170903951e2f2g2h2i2k2l9m10n15o28p28q28r69s70t70u1588v1354w1354$V=27|c$S=27$url=http%3A%2F%2Flocalhost%3A8083%2Fexamples%2Fjsp%2Fjsp2%2Fsimpletag%2Fbook.jsp$title=JSP%202.0%20Examples%20-%20Book%20SimpleTag%20Handler$vd=11998$latC=1$visitID=DCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD$fId=570903968_358$v=10151180821210004$vID=1537170824722MLGEBS0P5FLE6IM87LI7RT8BANNU2LIT$time=1537170905988

@@ -1,0 +1,13 @@
+POST http://localhost:8083/rb_bf86668dgc?type=js&session=%3D3%3Dsrv%3D1%3Dsn%3D27FABE7F193D28EB98551A61D033C534%3Dperc%3D100000%3Dol%3D0%3Dmul%3D1%3Dapp%3ARUM%2BDefault%2BApplication%3D1&svrid=1&flavor=post&referer=http%3A%2F%2Flocalhost%3A8083%2Fmanager%2Fhtml&visitID=DCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD HTTP/1.1
+Host: localhost:8083
+Content-Length: 563
+Origin: http://localhost:8083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Content-Type: text/plain;charset=UTF-8
+Accept: */*
+Referer: http://localhost:8083/manager/html
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: rxVisitor=1537170824722MLGEBS0P5FLE6IM87LI7RT8BANNU2LIT; dtSa=-; dtLatC=13115; dtPC=1$570869884_928h-vDCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD; dtCookie==3=srv=1=sn=27FABE7F193D28EB98551A61D033C534=perc=100000=ol=0=mul=1=app:RUM+Default+Application=1; rxvt=1537172674009|1537170824730
+
+$3p=1-1537170843567%3Blocalhost%7C2%7C2%7C0%7C0%7C0%7C0%7C2%7C%7C0%7C0%7C0%7C26278_26304%7C17%7C8%7C26$rt=1-1537170843567%3Bhttp%3A%2F%2Flocalhost%3A8083%2Fmanager%2Fimages%2Ftomcat.gif%7Cb26278e0f0g0h1i2k2l14m26u2296v2066w2066%7Chttp%3A%2F%2Flocalhost%3A8083%2Fmanager%2Fimages%2Fasf-logo.svg%7Cb26278e0f0g0h1i2k2l7m8u20948v20712w20712$url=http%3A%2F%2Flocalhost%3A8083%2Fmanager%2Fhtml$title=%2Fmanager$latC=13115$visitID=DCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD$fId=570869884_928$v=10151180821210004$vID=1537170824722MLGEBS0P5FLE6IM87LI7RT8BANNU2LIT$time=1537170874006

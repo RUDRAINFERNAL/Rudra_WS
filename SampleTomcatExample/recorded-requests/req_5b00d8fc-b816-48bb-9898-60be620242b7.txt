@@ -1,0 +1,9 @@
+GET http://localhost:8083/ruxitagentjs_ICA2SVfqr_10151180821210004.js HTTP/1.1
+Host: localhost:8083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Accept: */*
+Referer: http://localhost:8083/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: dtCookie==3=srv=4=sn=27FABE7F193D28EB98551A61D033C534=perc=100000=ol=0=mul=1
+

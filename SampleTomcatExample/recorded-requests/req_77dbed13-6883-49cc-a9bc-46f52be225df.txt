@@ -1,0 +1,9 @@
+GET http://localhost:8083/examples/jsp/images/return.gif HTTP/1.1
+Host: localhost:8083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://localhost:8083/examples/jsp/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9
+Cookie: rxVisitor=1537170824722MLGEBS0P5FLE6IM87LI7RT8BANNU2LIT; dtLatC=1; dtCookie==3=srv=1=sn=27FABE7F193D28EB98551A61D033C534=perc=100000=ol=0=mul=1=app:RUM+Default+Application=1; dtPC=1$570889888_112h1vDCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD; dtSa=-; rxvt=1537172689898|1537170824730
+
