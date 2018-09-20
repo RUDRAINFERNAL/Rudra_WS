@@ -1,9 +1,0 @@
-GET http://localhost:8083/bg-nav.png HTTP/1.1
-Host: localhost:8083
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
-Accept: image/webp,image/apng,image/*,*/*;q=0.8
-Referer: http://localhost:8083/tomcat.css
-Accept-Encoding: gzip, deflate, br
-Accept-Language: en-US,en;q=0.9
-Cookie: dtCookie==3=srv=1=sn=27FABE7F193D28EB98551A61D033C534=perc=100000=ol=0=mul=1; rxVisitor=1537170824722MLGEBS0P5FLE6IM87LI7RT8BANNU2LIT; dtPC=1$570824697_51h1vDCNOLKHWDNEOFJIJOJCFJLCGOHCGICCD; dtSa=-; dtLatC=2; rxvt=1537172624738|1537170824730
-
