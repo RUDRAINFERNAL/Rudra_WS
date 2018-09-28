@@ -252,8 +252,6 @@
 <action-curve-description actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f" color="153,153,0" dashed="false" populationName="" scale="1.0" selected="false" statisticName="result.average.duration" zoneName=""/>
 <action-curve-description actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f" color="107,107,0" dashed="false" populationName="" scale="1.0" selected="false" statisticName="result.maximum.duration" zoneName=""/>
 </chart-description>
-<empty-chart-description/>
-<empty-chart-description/>
 </charts-model-description>
 <!--****** END DASHBOARDS  ******-->
 <!--****** START DATA AUTO FILTERS  ******-->
