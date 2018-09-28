@@ -3339,14 +3339,14 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
 <!--****** END VARIABLES ******-->
 <!--****** MONITORED HOSTS ******-->
 <monitored-host-system host-name="" load-generator="false" uid="NeoLoad">
-    <embedded-action>5658b6e5-afa1-4e46-a904-b208c8495517</embedded-action>
+    <embedded-action>4b09509e-57c5-4c1b-bfcd-fd33d13bd3ab</embedded-action>
 </monitored-host-system>
 <monitored-host-system host-name="localhost:7100" load-generator="true" uid="LG localhost:7100">
-    <embedded-action>1b2d1ae4-b774-4bea-b30d-5b79e80eaeb0</embedded-action>
+    <embedded-action>c411b101-642b-45e3-bd45-b14b07471577</embedded-action>
 </monitored-host-system>
 <!--****** END MONITORED HOSTS ******-->
 <!--****** MONITOR CONNECTIONS ******-->
-<connection-system interval="1000" name="NeoLoad" server-port="0" uid="5658b6e5-afa1-4e46-a904-b208c8495517">
+<connection-system interval="1000" name="NeoLoad" server-port="0" uid="4b09509e-57c5-4c1b-bfcd-fd33d13bd3ab">
     <monitor-category name="Default" short-display-name="Default">
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="UserLoad" sampling="0" unit=""/>
@@ -3360,10 +3360,10 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             format="NUMBER" name="WarningAlerts" sampling="0" unit=""/>
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="cpu" sampling="0"
-            threshold="51b77eca-73ec-4b8d-ab92-bb48820b3941" unit="%"/>
+            threshold="9da99feb-08f7-4711-9ce7-836c2fc3950a" unit="%"/>
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="memory" sampling="0"
-            threshold="d5f28c87-5088-4e6f-9287-11ae702e1b49" unit="%"/>
+            threshold="8d820cc4-af73-44b0-b440-31f7660a05e3" unit="%"/>
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="threadcount" sampling="0" unit=""/>
         <monitor-category name="Load Generator Connections" short-display-name="Load Generator Connections">
@@ -3372,7 +3372,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
                 format="NUMBER" name="totallgdisconnections"
                 sampling="0"
-                threshold="d6b1920b-3da0-478e-acf5-333bfbef4722" unit=""/>
+                threshold="12b3a40d-0589-4199-b761-a8d2b4898d75" unit=""/>
             <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
                 format="NUMBER" name="totallgreconnections" sampling="0" unit=""/>
         </monitor-category>
@@ -3419,7 +3419,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             </monitor-category>
         </monitor-category>
     </monitor-category>
-    <threshold enabled="true" uid="51b77eca-73ec-4b8d-ab92-bb48820b3941">
+    <threshold enabled="true" uid="9da99feb-08f7-4711-9ce7-836c2fc3950a">
         <threshold-condition durationKind="SECONDS" durationNumber="15"
             operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
             <threshold-comment language="en">
@@ -3439,7 +3439,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             </threshold-comment>
         </threshold-condition>
     </threshold>
-    <threshold enabled="true" uid="d5f28c87-5088-4e6f-9287-11ae702e1b49">
+    <threshold enabled="true" uid="8d820cc4-af73-44b0-b440-31f7660a05e3">
         <threshold-condition durationKind="SECONDS" durationNumber="15"
             operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
             <threshold-comment language="en">
@@ -3459,7 +3459,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             </threshold-comment>
         </threshold-condition>
     </threshold>
-    <threshold enabled="true" uid="d6b1920b-3da0-478e-acf5-333bfbef4722">
+    <threshold enabled="true" uid="12b3a40d-0589-4199-b761-a8d2b4898d75">
         <threshold-condition durationKind="NB_OF_TIMES"
             durationNumber="1" operator="GREATER_THAN" severity="LOW"
             valueMax="Infinity" valueMin="1.0">
@@ -3472,14 +3472,14 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
         </threshold-condition>
     </threshold>
 </connection-system>
-<connection-system interval="1000" name="NeoLoad" server-port="0" uid="1b2d1ae4-b774-4bea-b30d-5b79e80eaeb0">
+<connection-system interval="1000" name="NeoLoad" server-port="0" uid="c411b101-642b-45e3-bd45-b14b07471577">
     <monitor-category name="Default" short-display-name="Default">
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="lgcpu.localhost:7100" sampling="0"
-            threshold="8e598b85-de18-45ef-96ab-7635ce63e766" unit="%"/>
+            threshold="57a7c863-23f1-4670-b505-5e2091f8e6dc" unit="%"/>
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="lgmemory.localhost:7100" sampling="0"
-            threshold="6930f619-cdb6-4e84-b94c-bfd3d4894b13" unit="%"/>
+            threshold="36f4dd44-9dc0-4c2b-aa5b-9d5e113811bd" unit="%"/>
         <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
             format="NUMBER" name="lgthroughput.localhost:7100"
             sampling="0" unit="Mb/s"/>
@@ -3498,7 +3498,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
                 format="NUMBER"
                 name="lg.jetty.httpclient.taskpool.used.localhost:7100"
                 sampling="0"
-                threshold="93c85be4-bd0a-44ad-90fd-868efa9ba6b7" unit="%"/>
+                threshold="8dcd46be-9b96-4c54-8dcc-29127a9bfd1d" unit="%"/>
         </monitor-category>
         <monitor-category name="Controller Connection" short-display-name="Controller Connection">
             <monitor-wrapped-statistic callTime="ON_BENCH" computing="0"
@@ -3530,7 +3530,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             </monitor-category>
         </monitor-category>
     </monitor-category>
-    <threshold enabled="true" uid="8e598b85-de18-45ef-96ab-7635ce63e766">
+    <threshold enabled="true" uid="57a7c863-23f1-4670-b505-5e2091f8e6dc">
         <threshold-condition durationKind="SECONDS" durationNumber="15"
             operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
             <threshold-comment language="en">
@@ -3550,7 +3550,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             </threshold-comment>
         </threshold-condition>
     </threshold>
-    <threshold enabled="true" uid="6930f619-cdb6-4e84-b94c-bfd3d4894b13">
+    <threshold enabled="true" uid="36f4dd44-9dc0-4c2b-aa5b-9d5e113811bd">
         <threshold-condition durationKind="SECONDS" durationNumber="15"
             operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="80.0">
             <threshold-comment language="en">
@@ -3570,7 +3570,7 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
             </threshold-comment>
         </threshold-condition>
     </threshold>
-    <threshold enabled="true" uid="93c85be4-bd0a-44ad-90fd-868efa9ba6b7">
+    <threshold enabled="true" uid="8dcd46be-9b96-4c54-8dcc-29127a9bfd1d">
         <threshold-condition durationKind="SECONDS" durationNumber="15"
             operator="GREATER_THAN" severity="LOW" valueMax="Infinity" valueMin="70.0">
             <threshold-comment language="en">
@@ -3732,7 +3732,164 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
     <empty-chart-description/>
     <empty-chart-description/>
 </charts-model-description>
-<charts-model-description name="Graph board_1">
+<charts-model-description name="Graph board_1"/>
+<charts-model-description name="Graph board_2">
+    <chart-description autoRange="true"
+        chart-description-type="chart-description-type"
+        domainMarkerVisible="true" granularityLevel="0"
+        historyState="XMIN" includeInReport="false"
+        rangeMarkerVisible="true" title="User Load and Error Rate" typeName="CLASSIC">
+        <monitor-curve-description
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="20,106,203" connectionName="NeoLoad" dashed="false"
+            monitorName="UserLoad" monitoredHostName="NeoLoad"
+            scale="1.0" selected="false"/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="200,0,0" dashed="false" populationName="" scale="1.0"
+            selected="false" statisticName="result.errors" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="88,183,55" dashed="false" populationName=""
+            scale="1.0" selected="false" statisticName="result.hit.rate" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="191,0,189" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.errors.per.s" zoneName=""/>
+        <action-curve-description
+            actionUid="d78c18da-71b4-3805-92a4-d74fb7a5ab2e"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="42,89,26" dashed="false" populationName=""
+            scale="1.0" selected="false" statisticName="result.hit.rate" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="153,153,0" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.average.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="107,107,0" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.maximum.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="d78c18da-71b4-3805-92a4-d74fb7a5ab2e"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="20,210,210" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.average.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="d78c18da-71b4-3805-92a4-d74fb7a5ab2e"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="223,143,143" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.maximum.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="236,153,22" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.average.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="7ed8daca-007e-3d9e-b273-7a92d22bf638"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="128,128,128" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.maximum.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="244,239,0" dashed="false" populationName=""
+            scale="100.0" selected="false"
+            statisticName="result.throughput" zoneName=""/>
+    </chart-description>
+    <chart-description autoRange="true"
+        chart-description-type="chart-description-type"
+        domainMarkerVisible="true" granularityLevel="0"
+        historyState="XMIN" includeInReport="false"
+        rangeMarkerVisible="true" title="Overall Throughput" typeName="CLASSIC">
+        <monitor-curve-description
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="42,89,26" connectionName="NeoLoad" dashed="false"
+            monitorName="throughput" monitoredHostName="NeoLoad"
+            scale="1.0" selected="false"/>
+    </chart-description>
+    <chart-description autoRange="true"
+        chart-description-type="chart-description-type"
+        domainMarkerVisible="true" granularityLevel="0"
+        historyState="XMIN" includeInReport="false"
+        rangeMarkerVisible="true" title="Load Generators CPU usage" typeName="CLASSIC">
+        <monitor-curve-description
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="0,255,0" connectionName="NeoLoad" dashed="false"
+            monitorName="lgcpu.localhost:7100"
+            monitoredHostName="LG localhost:7100" scale="1.0" selected="false"/>
+    </chart-description>
+    <chart-description autoRange="true"
+        chart-description-type="chart-description-type"
+        domainMarkerVisible="true" granularityLevel="0"
+        historyState="XMIN" includeInReport="false"
+        rangeMarkerVisible="true" title="Requests/s and Errors/s" typeName="CLASSIC">
+        <monitor-curve-description
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="20,106,203" connectionName="NeoLoad" dashed="false"
+            monitorName="UserLoad" monitoredHostName="NeoLoad"
+            scale="1.0" selected="false"/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="88,183,55" dashed="false" populationName=""
+            scale="1.0" selected="false" statisticName="result.hit.rate" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="200,0,0" dashed="false" populationName="" scale="1.0"
+            selected="false" statisticName="result.errors.per.s" zoneName=""/>
+    </chart-description>
+    <chart-description autoRange="true"
+        chart-description-type="chart-description-type"
+        domainMarkerVisible="true" granularityLevel="0"
+        historyState="XMIN" includeInReport="false"
+        rangeMarkerVisible="true" title="Page rate" typeName="CLASSIC">
+        <monitor-curve-description
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="20,106,203" connectionName="NeoLoad" dashed="false"
+            monitorName="UserLoad" monitoredHostName="NeoLoad"
+            scale="1.0" selected="false"/>
+        <action-curve-description
+            actionUid="d78c18da-71b4-3805-92a4-d74fb7a5ab2e"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="42,89,26" dashed="false" populationName=""
+            scale="1.0" selected="false" statisticName="result.hit.rate" zoneName=""/>
+    </chart-description>
+    <chart-description autoRange="true"
+        chart-description-type="chart-description-type"
+        domainMarkerVisible="true" granularityLevel="0"
+        historyState="XMIN" includeInReport="false"
+        rangeMarkerVisible="true" title="Response times (req.)" typeName="CLASSIC">
+        <monitor-curve-description
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="20,106,203" connectionName="NeoLoad" dashed="false"
+            monitorName="UserLoad" monitoredHostName="NeoLoad"
+            scale="1.0" selected="false"/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="153,153,0" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.average.duration" zoneName=""/>
+        <action-curve-description
+            actionUid="2ee035d5-0178-378f-8d0a-63218f082d2f"
+            benchUid="edc444a8-0ffe-4312-b09b-c99bad253b0e"
+            color="107,107,0" dashed="false" populationName=""
+            scale="1.0" selected="false"
+            statisticName="result.maximum.duration" zoneName=""/>
+    </chart-description>
     <empty-chart-description/>
     <empty-chart-description/>
 </charts-model-description>
@@ -3832,8 +3989,8 @@ Date: Tue, 18 Sep 2018 09:36:47 GMT</responseHeaders>
         <!--****** END LG ADDRESSES ******-->
     </lg-networkiface>
 </lg-host>
-<lg-host hostname="TMZ-DPC-2006:7100" loadWeight="1" sapSupport="false"
-    standalone="false" supportWANEmulation="false"
+<lg-host hostname="192.168.22.133:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
     uid="d0625829-d174-4944-9b4f-72e318ac6a75" version="6.5.1;build=20180711-98">
     <!--****** LG NETWORK INTERFACES ******-->
     <lg-networkiface description="Software Loopback Interface 1"

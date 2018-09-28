@@ -308,39 +308,12 @@
 <extension>mp3</extension>
 </extensions>
 </media-streaming-settings>
-<plugin-identification-settings plugin="RTMP">
-<request-headers>
-<header value="application/x-fcs"/>
-</request-headers>
-<response-headers>
-<header value="application/x-fcs"/>
-</response-headers>
-</plugin-identification-settings>
 <plugin-identification-settings plugin="GWT">
 <request-headers>
 <header value="text/x-gwt-rpc"/>
 </request-headers>
 <response-headers>
 <header value="application/json"/>
-</response-headers>
-</plugin-identification-settings>
-<plugin-identification-settings plugin="JAVA">
-<request-headers>
-<header value="application/x-java-serialized-object"/>
-</request-headers>
-<response-headers>
-<header value="application/x-java-serialized-object"/>
-</response-headers>
-</plugin-identification-settings>
-<plugin-identification-settings plugin="CUSTOM"/>
-<plugin-identification-settings plugin="AMF">
-<request-headers>
-<header value="application/x-amf"/>
-<header value="application/xml"/>
-</request-headers>
-<response-headers>
-<header value="application/x-amf"/>
-<header value="application/xml"/>
 </response-headers>
 </plugin-identification-settings>
 <plugin-identification-settings plugin="HESSIAN">
@@ -353,6 +326,33 @@
 <header value="application/x-hessian"/>
 </response-headers>
 </plugin-identification-settings>
+<plugin-identification-settings plugin="RTMP">
+<request-headers>
+<header value="application/x-fcs"/>
+</request-headers>
+<response-headers>
+<header value="application/x-fcs"/>
+</response-headers>
+</plugin-identification-settings>
+<plugin-identification-settings plugin="AMF">
+<request-headers>
+<header value="application/x-amf"/>
+<header value="application/xml"/>
+</request-headers>
+<response-headers>
+<header value="application/x-amf"/>
+<header value="application/xml"/>
+</response-headers>
+</plugin-identification-settings>
+<plugin-identification-settings plugin="JAVA">
+<request-headers>
+<header value="application/x-java-serialized-object"/>
+</request-headers>
+<response-headers>
+<header value="application/x-java-serialized-object"/>
+</response-headers>
+</plugin-identification-settings>
+<plugin-identification-settings plugin="CUSTOM"/>
 <team-server-settings port="0" protocol="svn" resourcesFolderName="%resources%" thirdParty="false"/>
 <exportNeoSenseSettings destination="" mode="" recordedReqRespExported="false" screenShotsExported="false"/>
 <restApisSettings>
